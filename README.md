@@ -1,25 +1,26 @@
-# Connect-Social-Media
-It is actually created by @Ed-Roh , I have made some differences and added some more features to it
+# Communi
 
+admin login id - admin@gmail.com
 
-admin login id - admin@gmail.com 
-
-password - admin123 (if you want to change it , you can do it in the code(form.jsx))
-
+password - admin123 (can change it in the code(form.jsx))
 
 install node &
 use this cmd - npm -i (in client folder and server folder too.... )
+
 #
-create  .env file in server folder with this content :
+
+create .env file in server folder with this content :
 
 MONGO_URL="change this to db url of mongo db"
 
-JWT_SECRET='somesuperhardstringtoguess'
+JWT_SECRET='any string'
 
 PORT =3001
+
 #
-to run the prgm - 
+
+to run the prgm -
 
 in client folder , use cmd - npm start
 
-in server folder , use cmds - nodemon index.js , nodemon index1.js
+in server folder , use cmds - nodemon index.js (or npm start) , nodemon index1.js
